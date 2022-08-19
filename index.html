@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8" />
@@ -7,25 +8,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<center>  
-<div class="header">
-    <header>
-      <nav>
-        <a class="logo2" href="/">INFO ─ Liceu</a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Forum</a></li>
-          <li><a href="#">Suporte</a></li>
-        </ul>
-      </nav>
-    </header>
-    <script src="script.js"></script>
+<center>
 <div class="inner-header flex">
 <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
 <h1>INFO ─ Liceu</h1><h2>CEEFMTI LICEU MUNIZ FREIRE</h2>
@@ -37,16 +20,16 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
 </defs>
 <g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255)" />
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(0,0,0,0.7" />
+<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,0,0,0.5)" />
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(0,0,0,0.3)" />
+<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(0,0,0)" />
 </g>
 </svg>
 </div>
 </div>
 <div class="div_1">
-<h6><b><br>Sobre:</b></h6><h2><br><br><br><br><br>
+<h6>Sobre:</b></h6><h2><br><br><br><br><br>
 <h17><b>Bem-vindo, aluno!
 <br>
 <br>O INFO ─ Liceu é o lugar certo caso você queira saber seus horários semanais, 
@@ -59,7 +42,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <h5><b>Cardápio do Alunos </b></h5><br>
 <img src=cardapio.jpeg width=80%>
 <br>
-<h13><b><u>Não nos responsabilizamos por alterações no cardápio. Apenas a escola pode alterar o conteúdo do Cardápio.</u></b></h13>    
+<h20><b><u>Não nos responsabilizamos por alterações no cardápio. Apenas a escola pode alterar o conteúdo do Cardápio.</u></b></h20>    
 <br><br><br><br>
 <div class="div_2" > <br> <br><br><br>
 <h6><b>Calendário Escolar | SEDU 2022</b></h6><br><br>
@@ -116,7 +99,8 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
         if (counter > 5){
             counter = 1;
         }
-    },50000);    
+    },50000);
+    
     
     
 class MobileNavbar {
@@ -165,8 +149,9 @@ const mobileNavbar = new MobileNavbar(
 mobileNavbar.init();
 </script>
 <br>
-<div class="barra"> <br> <h53> INFO ─ Liceu </h53>
-<br>
+<footer id="page-footer">
+<br> <h53> INFO ─ Liceu </h53>
+<br><br>
 <h7>Caio Lennon (DEV)</h7> <br>
 <h9>Fabio Alves (ADM)</h9> <br>
 <h10>Emilly Barbosa (ADM)</h10> <br> 
@@ -175,6 +160,8 @@ mobileNavbar.init();
 <br><br>
 <h7>caiolennon09@gmail.com</h7><h21> | </h21><h7>escolaliceu@sedu.es.gov.br</h7>
 <br><br>
+    &copy; 2022
+</footer>
 </div>
 </body>
 </html>
