@@ -316,14 +316,12 @@ p {
 
 
 .slider{
-  width: 65%;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .slides{
-  width: 500%;
-  height: 500px;
+  width: 100%;
   display: flex;
 }
 
@@ -332,13 +330,13 @@ p {
 }
 
 .slide{
-  width: 20%;
+  width: 100%;
   transition: 2s;
 }
 
 .slide img{
-  width: 100%;
-  height: 100%;
+  width: 800px;
+  height: 500px;
 }
 
 .manual-btn:not(:last-child){
@@ -350,19 +348,19 @@ p {
 }
 
 #radio2:checked ~ .first{
-  margin-left: -20%;
-}
-
-#radio3:checked ~ .first{
   margin-left: -40%;
 }
 
-#radio4:checked ~ .first{
+#radio3:checked ~ .first{
   margin-left: -60%;
 }
 
-#radio5:checked ~ .first{
+#radio4:checked ~ .first{
   margin-left: -80%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -100%;
 }
 
 
