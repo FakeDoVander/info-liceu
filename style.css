@@ -36,6 +36,20 @@ body{
   background: #add8e6;
 }
 
+@media (max-width: 999px) {
+  .slidershow {
+      width: 320px;
+      height: 250px;
+      overflow: hidden;
+  }
+  .bar {
+      margin-top: -85px;
+      width: 45px;
+      height: 15px;
+      font-size: 10px;
+  }
+}
+
 input[name="r"]{
     position: absolute;
     visibility: hidden;
