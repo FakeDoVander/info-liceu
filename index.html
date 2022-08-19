@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8" />
@@ -45,52 +44,49 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <br>
 <h20><b><u>Não nos responsabilizamos por alterações no cardápio. Apenas a escola pode alterar o conteúdo do Cardápio.</u></b></h20>    
 <br><br><br><br>
-<div class="div_2" > <br> <br><br><br>
-<h6><b>Calendário Escolar | SEDU 2022</b></h6><br><br>
+<div class="div_2" > <br><br><br><br>
+<h6><b>Calendário Escolar | SEDU 2022</b></h6>
 <img src="calendario.png" width=80%><br><br><br><br><br><br>
-</div><br><br><br><br><br><br>
+</div>
+<br><br><br><br><br><br>
 <h5><b> Horario das Turmas </b></h5>
-<div class="slider">
+<br><br><br><br><br><br>
+<div class="div_3">
+    <div class="slidershow middle">
       <div class="slides">
-        <input type="radio" name="radio-btn" id="radio1" checked>
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <input type="radio" name="radio-btn" id="radio5">
-          
-        <div class="slide first">
-          <img src="segunda.png" width=80% alt="">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <div class="slide s1">
+          <img src="segunda.png" alt="">
         </div>
         <div class="slide">
-          <img src="terça.png" width=80% alt="">
+          <img src="terça.png" alt="">
         </div>
         <div class="slide">
-          <img src="quarta.png" width=80% alt="">
+          <img src="quarta.png" alt="">
         </div>
         <div class="slide">
-          <img src="quinta.png" width=80% alt="">
+          <img src="quinta.png" alt="">
         </div>
         <div class="slide">
-          <img src="sexta.png" width=80% alt="">
+          <img src="sexta.png" alt="">
         </div>
-          
-        <div class="navigation-auto">
-          <div class="auto-btn1"><b>SEG</b></div>
-          <div class="auto-btn2"><b>TER</b></div>
-          <div class="auto-btn3"><b>QUA</b></div>
-          <div class="auto-btn4"><b>QUI</b></div>
-          <div class="auto-btn5"><b>SEX</b></div>
-        </div>
-        
-      <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-        <label for="radio5" class="manual-btn"></label>
       </div>
-    </div>    
+      </div>
+      <div class="navigation">
+        <label for="r1" class="bar">Segunda</label>
+        <label for="r2" class="bar">Terça</label>
+        <label for="r3" class="bar">Quarta</label>
+        <label for="r4" class="bar">Quinta</label>
+        <label for="r5" class="bar">Sexta</label>
+      </div>
+    </div>   
     </div>
+    </div>
+<br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br>
 <script type="text/javascript">
     var counter = 1
@@ -101,53 +97,6 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             counter = 1;
         }
     },50000);
-    
-    
-    
-class MobileNavbar {
-  constructor(mobileMenu, navList, navLinks) {
-    this.mobileMenu = document.querySelector(mobileMenu);
-    this.navList = document.querySelector(navList);
-    this.navLinks = document.querySelectorAll(navLinks);
-    this.activeClass = "active";
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  animateLinks() {
-    this.navLinks.forEach((link, index) => {
-      link.style.animation
-        ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-            index / 7 + 0.3
-          }s`);
-    });
-  }
-
-  handleClick() {
-    this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
-  }
-
-  addClickEvent() {
-    this.mobileMenu.addEventListener("click", this.handleClick);
-  }
-
-  init() {
-    if (this.mobileMenu) {
-      this.addClickEvent();
-    }
-    return this;
-  }
-}
-
-const mobileNavbar = new MobileNavbar(
-  ".mobile-menu",
-  ".nav-list",
-  ".nav-list li",
-);
-mobileNavbar.init();
 </script>
 <br>
 <footer id="page-footer">
@@ -161,7 +110,7 @@ mobileNavbar.init();
 <br><br>
 <h7>caiolennon09@gmail.com</h7><h21> | </h21><h7>escolaliceu@sedu.es.gov.br</h7>
 <br><br>
-    &copy; 2016 Some
+    &copy; 2022
 </footer>
 </div>
 </body>
