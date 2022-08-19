@@ -1,121 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-a:hover {
-  opacity: 0.7;
-}
-
-.logo2 {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
-  height: 8vh;
-}
-
-main {
-  background: url("bg.jpg") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li {
-  letter-spacing: 3px;
-  margin-left: 32px;
-}
-
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
-  transition: 1.3s;
-}
-
-@media (max-width: 999px) {
-  body {
-    overflow-x: hidden;
-  }
-  .nav-list {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 50vh;
-    background: #23232e;
-    flex-direction: column;
-    align-items: center;
-    transform: translateX(100%);
-    justify-content: space-around;
-    transition: transform 0.3s ease-in;
-  }
-  .nav-list li {
-    margin-left: 0;
-    opacity: 0;
-  }
-  .mobile-menu {
-    display: block;
-  }
-}
-
-.nav-list.active {
-  transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.mobile-menu.active .line1 {
-  transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-  opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-  transform: rotate(45deg) translate(-5px, -7px);
-}
-
-
-
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
     margin: 0;
+    background: #000;
 }
 
 h5 {
@@ -123,12 +10,13 @@ h5 {
   font-weight: 300;
   letter-spacing: 2px;
   margin-top: 00px;
+  color: #fff;
   font-size: 46px;
 }
 h6 {
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
-  font-size: 46px;
+  font-size: 35px;
+  color: #fff; 
 }
 
 h2 {
@@ -158,7 +46,7 @@ h1 {
 }
 
 h8 {
-  color: #fff;
+  color: #000;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
@@ -168,32 +56,32 @@ h8 {
 
 .div_1 {
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: #000;
     height: 100%;
-    margin-top: 300px;
     position: relative;
     text-align: center;
-    background: linear-gradient(60deg, #23232e 0%, #23232e 100%);
+    background: linear-gradient(60deg, #000 0%, #000 100%);
     background-size: 300% 300%; 
     animation: colors 15s ease infinite;
 }
 .div_2 {
     font-family: 'Lato', sans-serif;
-    color: #fff;
+    color: #000;
 	height: 100%;
     align-items: center;
     justify-content: center;
     position: relative;
     text-align: center;
-    background: linear-gradient(60deg, #23232e 0%, #23232e 100%);
+    background: linear-gradient(60deg, #000 0%, #000 100%);
     background-size: 300% 300%; 
     animation: colors 15s ease infinite;
 }
-.barra {
+.page-footer {
     font-family: 'Lato', sans-serif;
-    background: linear-gradient(60deg, rgba(1,1,1,1) 0%, rgba(5,5,5,1) 100%);
+    background: linear-gradient(60deg, #392620 0%, #392620 100%);
     color: #000;
     height: 300px;
+    text-align: center;
     animation: colors 1s ease infinite;
 }
 
@@ -202,7 +90,7 @@ h3 {
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 46px;
-  color: #fff;
+  color: #000;
 }
 h4 {
   font-family: 'Lato', sans-serif;
@@ -379,7 +267,7 @@ p {
 .manual-btn{
   font-family: 'Lato', sans-serif;
   width: 80px;
-  height: 30px;
+  height: 25px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -404,9 +292,9 @@ p {
   font-family: 'Lato', sans-serif;
   border: 2px solid #40D3DC;
   width: 80px;
-  height: 25px;
+  height: 20px;
   border-radius: 10px;
-  color: #000;
+  color: #445ef5;
   transition: 1s;
 }
 
@@ -417,22 +305,27 @@ p {
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
   background: #40D3DC;
+  color: #fff;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
   background: #40D3DC;
+  color: #fff;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
   background: #40D3DC;
+  color: #fff;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
   background: #40D3DC;
+  color: #fff;
 }
 
 #radio5:checked ~ .navigation-auto .auto-btn5{
   background: #40D3DC;
+  color: #fff;
 }
 
 h7 {
@@ -460,6 +353,14 @@ h9:hover{
     color: #7D4497;
     text-shadow: 0 0 5px #7D4497,
         0 0 100px #7D4497;
+}
+
+h20 {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 16px;
 }
 
 h10 {
@@ -504,7 +405,7 @@ h12:hover{
         0 0 100px #D60000;
 }
 h13: {
-  color: #000;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
@@ -537,10 +438,10 @@ h16 {
 
 h17 {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 40%;
   margin-top: 10px;
   letter-spacing: 2px;
-  font-size: 26px;
+  font-size: 90%;
   color: #fff;
 }
 
