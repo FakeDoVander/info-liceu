@@ -54,7 +54,7 @@ main {
   height: 2px;
   background: #fff;
   margin: 8px;
-  transition: 0.3s;
+  transition: 1.3s;
 }
 
 @media (max-width: 999px) {
@@ -65,13 +65,13 @@ main {
     position: absolute;
     top: 8vh;
     right: 0;
-    width: 40vw;
-    height: 60vh;
+    width: 50vw;
+    height: 50vh;
     background: #23232e;
     flex-direction: column;
     align-items: center;
+    transform: translateX(100%);
     justify-content: space-around;
-    transform: translate(100%);
     transition: transform 0.3s ease-in;
   }
   .nav-list li {
@@ -222,11 +222,10 @@ p {
   font-family: 'Lato', sans-serif;
   color: #fff;
   position: relative;
-  animation: changeBackgroundImage 10s infinite;
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
+  animation: changeBackgroundImage 10s infinite;
 }
 
 @keyframes changeBackgroundImage {
