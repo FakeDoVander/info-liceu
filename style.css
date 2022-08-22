@@ -3,7 +3,7 @@ body{
   padding: 0;
 }
 .slidershow{
-  width: 1250px;
+  width: 1100px;
   height: 700px;
   overflow: hidden;
 }
@@ -23,18 +23,20 @@ body{
   display: flex;
 }
 .bar{
-  width: 90px;
+  width: 130px;
   height: 20px;
   border: 2px solid #fff;
   margin: 6px;
-  margin-top: 230px;
+  color: #000;
+  margin-top: 370px;
   cursor: pointer;
   transition: 0.4s;
   text-align:center;
 }
 .bar:hover{
-  color: #000;
-  background: #add8e6;
+  color: #fff;
+  border: 5px solid #F7ACB9;
+  background: #F7ACB9;
 }
 
 @media (max-width: 999px) {
@@ -46,7 +48,7 @@ body{
   .bar {
       width: 55px;
       height: 20px;
-      margin-top: -350px;
+      margin-top: -130px;
       height: 15px;
       font-size: 10px;
   }
@@ -92,7 +94,7 @@ input[name="r"]{
 
 body {
     margin: 0;
-    background: #000;
+    background: #fff;
 }
 
 h5 {
@@ -104,9 +106,10 @@ h5 {
   font-size: 46px;
 }
 h6 {
+  margin-top: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 35px;
-  color: #fff; 
+  color: #000; 
 }
 
 h2 {
@@ -146,36 +149,37 @@ h8 {
 
 .div_1 {
     font-family: 'Lato', sans-serif;
-    color: #000;
+    color: #fff;
+    margin-top: 150px;
     height: 100%;
     position: relative;
     text-align: center;
-    background: linear-gradient(60deg, #000 0%, #000 100%);
+    background: linear-gradient(60deg, #0098DA 0%, #0098DA 100%);
     background-size: 300% 300%; 
     animation: colors 15s ease infinite;
 }
 .div_2 {
     font-family: 'Lato', sans-serif;
-    color: #000;
+    color: #fff;
 	height: 100%;
     align-items: center;
     justify-content: center;
     position: relative;
     text-align: center;
-    background: linear-gradient(60deg, #000 0%, #000 100%);
+    background: linear-gradient(60deg, #F7ACB9 0%, #F7ACB9 100%);
     background-size: 300% 300%; 
     animation: colors 15s ease infinite;
 }
 .div_3 {
     font-family: 'Lato', sans-serif;
-    color: #000;
-    height: 100vh;
+    color: #fff;
+    height: 140vh;
     width: 100%;
     align-items: center;
     justify-content: center;
     position: relative;
     text-align: center;
-    background: linear-gradient(60deg, #000 0%, #000 100%);
+    background: linear-gradient(60deg, #0098DA 0%, #0098DA 100%);
     background-size: 300% 300%; 
     animation: colors 15s ease infinite;
 }
@@ -187,21 +191,34 @@ h8 {
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: 300px;
     text-align: center;
     background: linear-gradient(60deg, #000 0%, #000 100%);
     background-size: 300% 300%; 
     animation: colors 15s ease infinite;
 }
 
+.div_5 {
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(60deg, #F7ACB9 0%, #F7ACB9 100%);
+}
+
 @media (max-width: 999px) {
-    .div_3 {
-        margin-top: 150px;
-        height: 0vh;
+    .div_1 {
+        margin-top: 200px;
     }
-    .div_4 {
-        margin-top: 400px;
-        height: 10vh;
+    .div_3 {
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        height: 70vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        background: linear-gradient(60deg, #0098DA 0%, #0098DA 100%);
+        background-size: 300% 300%; 
+        animation: colors 15s ease infinite;
     }
 }
 
@@ -247,10 +264,10 @@ p {
 
 @keyframes changeBackgroundImage {
   0% {
-    background-image: url(wallpaper.png);
+    background-image: url(wallpaper.jpg);
   }
   100% {
-    background-image: url(wallpaper.png);
+    background-image: url(wallpaper.jpg);
   }
 }
 
@@ -264,8 +281,8 @@ p {
 }
 
 .inner-header {
-  height:65vh;
-  width:100%;
+  height: 65vh;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -296,19 +313,19 @@ p {
 }
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
-  animation-duration: 7s;
+  animation-duration: 17s;
 }
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
-  animation-duration: 10s;
+  animation-duration: 20s;
 }
 .parallax > use:nth-child(3) {
   animation-delay: -4s;
-  animation-duration: 13s;
+  animation-duration: 23s;
 }
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
-  animation-duration: 20s;
+  animation-duration: 30s;
 }
 @keyframes move-forever {
   0% {
@@ -327,10 +344,10 @@ p {
     height:30vh;
   }
   h1 {
-    font-size: 24px;
+    font-size: 45px;
   }
   h2 {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -362,11 +379,18 @@ h9:hover{
 }
 
 h20 {
-  color: #fff;
+  color: #ff0000;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 16px;
+}
+@media (max-width: 999px) {
+  h20 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50%;
+    color: #ff0000;
+  }
 }
 
 h10 {
@@ -447,8 +471,16 @@ h17 {
   font-weight: 40%;
   margin-top: 10px;
   letter-spacing: 2px;
-  font-size: 90%;
+  font-size: 150%;
   color: #fff;
+}
+
+@media (max-width: 999px) {
+  h17 {
+    font-family: 'Lato', sans-serif;
+    font-size: 80%;
+    color: #fff;
+  }
 }
 
 h21 {
@@ -464,4 +496,39 @@ h53 {
   letter-spacing: 2px;
   font-size: 46px;
   color: yellow;
+}
+
+h30 {
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  color: #fff; 
+}
+h31 {
+  margin-top: 5px;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  color: #fff; 
+}
+
+@media (max-width: 999px) {
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 130%;
+    color: #000;
+  }
+  h30 {
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    color: #fff;
+  }
+  h53 {
+    font-size: 200%;
+  }
+  h31 {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #fff; 
+  }
 }
