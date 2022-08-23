@@ -39,21 +39,6 @@ body{
   background: #F7ACB9;
 }
 
-@media (max-width: 999px) {
-  .slidershow {
-      width: 370px;
-      height: 250px;
-      overflow: hidden;
-  }
-  .bar {
-      width: 55px;
-      height: 20px;
-      margin-top: -10px;
-      height: 15px;
-      font-size: 10px;
-  }
-}
-
 input[name="r"]{
     position: absolute;
     visibility: hidden;
@@ -190,7 +175,7 @@ h8 {
     width: 100%;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     text-align: center;
     background: linear-gradient(60deg, #000 0%, #000 100%);
     background-size: 300% 300%; 
@@ -210,15 +195,10 @@ h8 {
     .div_3 {
         font-family: 'Lato', sans-serif;
         color: #fff;
-        height: 70vh;
+        height: 400px;
+    }
+    .div_4 {
         width: 100%;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        text-align: center;
-        background: linear-gradient(60deg, #0098DA 0%, #0098DA 100%);
-        background-size: 300% 300%; 
-        animation: colors 15s ease infinite;
     }
 }
 
@@ -512,6 +492,19 @@ h31 {
   color: #fff; 
 }
 
+@media (max-width: 999px) {
+  .slidershow {
+      width: 370px;
+      height: 250px;
+      overflow: hidden;
+  }
+  .bar {
+      width: 55px;
+      height: 14px;
+      margin-top: -150px;
+      font-size: 10px;
+  }
+}
 @media (max-width: 999px) {
   h6 {
     font-family: 'Lato', sans-serif;
