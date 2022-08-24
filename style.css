@@ -223,7 +223,7 @@ p {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url(wallpaper.jpg);
+    background-image: url(./images/wallpaper.jpg);
 }
 
 .logo {
