@@ -5,6 +5,7 @@ body{
     padding: 0;
     background: #fff;
 }
+
 .slidershow{
     width: 1100px;
     height: 700px;
@@ -31,6 +32,7 @@ body{
     border: 2px solid #fff;
     margin: 6px;
     color: #fff;
+    border-radius: 20px; 
     margin-top: 370px;
     cursor: pointer;
     transition: 0.4s;
@@ -522,6 +524,15 @@ h31 {
         font-weight: 300;
         letter-spacing: 2px;
         font-size: 16px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .bar {
+        width: 150px;
+        height: 30px;
+        margin-top: 550px;
+        font-size: 20px;
     }
 }
 
