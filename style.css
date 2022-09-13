@@ -183,9 +183,10 @@ h8 {
 }
 
 .div_5 {
+    margin-top: 40px;
     width: 100%;
-    height: 10vh;
-    background: linear-gradient(60deg, #F7ACB9 0%, #F7ACB9 100%);
+    height: 30vh;
+    background-color: #000;
 }
 
 .page-footer {
