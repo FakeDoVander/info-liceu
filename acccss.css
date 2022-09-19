@@ -461,22 +461,11 @@ h31 {
 
 @media (max-width: 999px) {
     .div_1 {
-        margin-top: -100vh;
-    	height: 100%;
-        color: #000; 
-    }
-    
-    .div_2 {
-    	height: 100%;
-        margin-top: 20%;
-    }
-    .div_3 {
-        font-family: 'Lato', sans-serif;
-        color: #fff;
-        height: 400px;
+        margin-top: -285%;
     }
     
     .div_4 {
+        margin-top: 15%;
         width: 100%;
     }
     
