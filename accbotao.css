@@ -1,0 +1,534 @@
+.download{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    height: 25px;
+    margin-top: 470px;
+    margin: 6px;
+    width: 130px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.download::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -40px;
+    position: absolute;
+    background: linear-gradient(yellow,blue);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    
+    100% { transform:rotate(360deg); }
+}
+
+.download::after{
+    content:'Download';
+    text-align: center;
+    position: absolute;
+    background: #fff;
+    color: #000;
+    inset:2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.download:hover::before{
+    background: linear-gradient(#000,#000);
+    animation: animate 3s linear infinite;
+    color: #fff;
+}
+
+.download:hover::after{
+    background: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.segunda{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    height: 25px;
+    margin-top: 370px;
+    margin: 6px;
+    width: 130px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.segunda::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -40px;
+    position: absolute;
+    background: linear-gradient(yellow,blue);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    
+    100% { transform:rotate(360deg); }
+}
+
+.segunda::after{
+    content:'Segunda';
+    text-align: center;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    inset:2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.segunda:hover::before{
+    background: linear-gradient(#000,#000);
+    animation: animate 3s linear infinite;
+    color: #fff;
+}
+
+.segunda:hover::after{
+    background: #248eff;
+}
+
+.terca{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    height: 25px;
+    margin-top: 370px;
+    margin: 6px;
+    width: 130px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.terca::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -40px;
+    position: absolute;
+    background: linear-gradient(yellow,blue);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    
+    100% { transform:rotate(360deg); }
+}
+
+.terca::after{
+    content:'Terça';
+    text-align: center;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    inset:2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.terca:hover::before{
+    background: linear-gradient(#000,#000);
+    animation: animate 3s linear infinite;
+    color: #fff;
+}
+
+.terca:hover::after{
+    background: #248eff;
+}
+
+.quinta{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    height: 25px;
+    margin-top: 370px;
+    margin: 6px;
+    width: 130px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.quinta::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -40px;
+    position: absolute;
+    background: linear-gradient(yellow,blue);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    
+    100% { transform:rotate(360deg); }
+}
+
+.quinta::after{
+    content:'Quinta';
+    text-align: center;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    inset:2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.quinta:hover::before{
+    background: linear-gradient(#000,#000);
+    animation: animate 3s linear infinite;
+    color: #fff;
+}
+
+.quinta:hover::after{
+    background: #248eff;
+}
+
+.quarta{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    height: 25px;
+    margin-top: 370px;
+    margin: 6px;
+    width: 130px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.quarta::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -40px;
+    position: absolute;
+    background: linear-gradient(yellow,blue);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    
+    100% { transform:rotate(360deg); }
+}
+
+.quarta::after{
+    content:'Quarta';
+    text-align: center;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    inset:2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.quarta:hover::before{
+    background: linear-gradient(#000,#000);
+    animation: animate 3s linear infinite;
+    color: #fff;
+}
+
+.quarta:hover::after{
+    background: #248eff;
+}
+
+.sexta{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    height: 25px;
+    margin-top: 370px;
+    margin: 6px;
+    width: 130px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sexta::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -40px;
+    position: absolute;
+    background: linear-gradient(yellow,blue);
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    
+    100% { transform:rotate(360deg); }
+}
+
+.sexta::after{
+    content:'Sexta';
+    text-align: center;
+    position: absolute;
+    background: #000;
+    color: #fff;
+    inset:2px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.sexta:hover::before{
+    background: linear-gradient(#000,#000);
+    animation: animate 3s linear infinite;
+    color: #fff;
+}
+
+.sexta:hover::after{
+    background: #248eff;
+}
+
+.sobre{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    width: 170px;
+    height: 50px;
+    margin-top: 370px;
+    left: 17%;
+    font-size: 20px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.sobre::after{
+    content:'Sobre';
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    color: #fff;
+    inset: 2px;
+    transition: 1s;
+}
+
+.sobre:hover::after{
+    background: #00003c;
+}
+
+.acessibilidade{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    width: 170px;
+    height: 50px;
+    margin-top: 370px;
+    left: 17%;
+    font-size: 20px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.acessibilidade::after{
+    content:'Acessibilidade';
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    color: #fff;
+    inset: 2px;
+    transition: 1s;
+}
+
+.acessibilidade:hover::after{
+    background: #00003c;
+}
+
+
+.seges{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    width: 170px;
+    height: 50px;
+    margin-top: 370px;
+    left: 17%;
+    font-size: 20px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.seges::after{
+    content:'Seges';
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    color: #fff;
+    inset: 2px;
+    transition: 1s;
+}
+
+.seges:hover::after{
+    background: #00003c;
+}
+
+.tesa{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    width: 170px;
+    height: 50px;
+    margin-top: 370px;
+    left: 17%;
+    font-size: 20px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.tesa::after{
+    content:'Tesa';
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    color: #fff;
+    inset: 2px;
+    transition: 1s;
+}
+
+.tesa:hover::after{
+    background: #00003c;
+}
+
+.inicio{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    width: 170px;
+    height: 50px;
+    margin-top: 370px;
+    left: 17%;
+    font-size: 20px;
+    margin: 6px;
+    overflow: hidden;
+}
+
+.inicio::after{
+    content:'Inicio';
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    color: #fff;
+    inset: 2px;
+    transition: 1s;
+}
+
+.inicio:hover::after{
+    background: #00003c;
+}
+
+.info{
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-top: 370px;
+    left: 0%;
+    font-size: 30px;
+    margin: 6px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 55px 55px;
+    background-image: url(./images/icone.ico);
+    overflow: hidden;
+}
+
+.info::after{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    color: #fff;
+}
+
+@media (max-width: 999px) {
+    .download{
+        width: 60px;
+        font-size: 10px;
+        height: 15px;
+    }
+    .segunda{
+        width: 50px;
+        font-size: 9px;
+        height: 15px;
+    }
+    .terca{
+        width: 50px;
+        font-size: 9px;
+        height: 15px;
+    }
+    .quarta{
+        width: 50px;
+        font-size: 9px;
+        height: 15px;
+    }
+    .quinta{
+        width: 50px;
+        font-size: 9px;
+        height: 15px;
+    }
+    .sexta{
+        width: 50px;
+        font-size: 9px;
+        height: 15px;
+    }
+    .inicio{
+        left: 0%;
+        font-size: 15px;
+    }
+    .seges{
+        left: 0%;
+        font-size: 15px;
+    }
+    .tesa{
+        left: 0%;
+        font-size: 15px;
+    }
+    .sobre{
+        left: 0%;
+        font-size: 15px;
+    }
+    .acessibilidade{
+        left: 0%;
+        font-size: 15px;
+    }
+    .acessibilidade::after{
+        content:'Acc';
+    }
+}
