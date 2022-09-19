@@ -142,6 +142,7 @@ h8 {
     position: relative;
     text-align: center;
     width: 85%;
+    margin-top: 100px;
     border-radius: 50px 50px 0 0;
     background-color: #4169E1;
 }
@@ -432,10 +433,6 @@ h31 {
         margin-top: 300px;
     	height: 40%;
     }
-    
-    .div_2 {
-    	height: 55vh;
-    }
     .div_3 {
         font-family: 'Lato', sans-serif;
         color: #fff;
@@ -479,7 +476,7 @@ h31 {
     h20 {
         font-family: 'Lato', sans-serif;
         font-size: 50%;
-        color: #ff0000;
+        color: #000;
     }
     
     h17 {
@@ -491,7 +488,7 @@ h31 {
     h6 {
         font-family: 'Lato', sans-serif;
         font-size: 130%;
-        color: #000;
+        color: #fff;
     }
     
     h30 {
@@ -512,7 +509,7 @@ h31 {
     }
     
     h21 {
-        color: #000;
+        color: #fff;
         font-family: 'Lato', sans-serif;
         font-weight: 300;
         letter-spacing: 2px;
