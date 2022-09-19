@@ -54,7 +54,6 @@
 
 
 
-
 .segunda{
     display: grid;
     place-items: center;
@@ -510,26 +509,33 @@
         height: 15px;
     }
     .inicio{
-        left: 0%;
+        left: -5%;
         font-size: 15px;
     }
     .seges{
-        left: 0%;
+        left: -5%;
         font-size: 15px;
     }
     .tesa{
-        left: 0%;
+        left: -5%;
         font-size: 15px;
     }
     .sobre{
-        left: 0%;
+        left: -5%;
         font-size: 15px;
     }
     .acessibilidade{
-        left: 0%;
+        left: -5%;
         font-size: 15px;
     }
     .acessibilidade::after{
-        content:'Acc';
+        content:'Acessi';
+    }
+    
+    .info{
+        width: 200px;
+        height: 50px;
+        left: -2%;
+        background-size: 25px 25px;
     }
 }
